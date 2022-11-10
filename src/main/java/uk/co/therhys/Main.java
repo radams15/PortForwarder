@@ -1,15 +1,15 @@
 package uk.co.therhys;
 
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
-        ForwarderThread forwarderThread = new ForwarderThread("mac", 4000);
+        ConfigParser configParser = new ConfigParser("conf.ini");
 
-        forwarderThread.start();
+        SwingUtilities.invokeLater(() -> {
+            MainFrame frame = new MainFrame(configParser.getHosts());
 
-        try {
-            forwarderThread.join();
-        }catch (InterruptedException e){
-            e.printStackTrace();
-        }
+            frame.setVisible(true);
+        });
     }
 }
