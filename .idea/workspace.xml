@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ac2482e-e323-45fe-8b6d-0a2a1b30299b" name="Changes" comment="Working as long as there are no erroneous config inputs.">
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="0ac2482e-e323-45fe-8b6d-0a2a1b30299b" name="Changes" comment="Add Jenkinsfile.">
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668076211694</updated>
-      <workItem from="1668076214075" duration="3679000" />
+      <workItem from="1668076214075" duration="3801000" />
     </task>
     <task id="LOCAL-00001" summary="Backend working, started work on frontend.">
       <created>1668077018462</created>
@@ -88,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668079712924</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Jenkinsfile.">
+      <created>1668079923662</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668079923662</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Backend working, started work on frontend." />
     <MESSAGE value="Working as long as there are no erroneous config inputs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working as long as there are no erroneous config inputs." />
+    <MESSAGE value="Add Jenkinsfile." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Jenkinsfile." />
   </component>
 </project>
